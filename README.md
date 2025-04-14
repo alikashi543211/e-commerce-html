@@ -1,35 +1,36 @@
-# Lecture 1: E-Commerce HTML - Introduction
+# 📘 Lecture 1: E-Commerce HTML - Introduction
 
-## Objective
+## 🎯 Objective
 To create a basic e-commerce website using **HTML** for selling products like laptops and mobiles online.
 
 ---
 
-## Project Details
+## 📁 Project Details
 
 - **Project Name**: `e_commerce_website_html`
 
 ---
 
-## Problem Statement
+## ❓ Problem Statement
 
-- I have a stock of laptops and mobiles.
-- There are many laptops and mobiles available.
-- I want to sell them online.
-- The problem is: **How can I sell them online?**
-
----
-
-## Proposed Solution
-
-- The solution is to **build an e-commerce website**.
-- This online platform will allow customers to browse and **purchase products directly** from my website.
+- 💻 I have a stock of laptops and mobiles.
+- 📦 There are many laptops and mobiles available.
+- 🛒 I want to sell them online.
+- 🤔 The problem is: **How can I sell them online?**
 
 ---
 
-## Conclusion
+## 💡 Proposed Solution
+
+- 🧑‍💻 The solution is to **build an e-commerce website**.
+- 🌐 This online platform will allow customers to browse and **purchase products directly** from my website.
+
+---
+
+## ✅ Conclusion
 
 Let’s start building the project and explore how we can make this e-commerce website using HTML.
+
 
 
 # 📘 Lecture 2: Introduction to E-Commerce Website in HTML
