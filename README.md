@@ -91,3 +91,36 @@ You will create all other pages similarly and use `<div>` tags to organize conte
 ---
 
 ✅ **That’s it — you now know how to build a structured homepage using HTML and the `<div>` tag!**
+# Lecture 4: Creating and Linking New Pages
+
+In this lecture, we will create new pages for our website and link them properly to ensure smooth navigation.
+
+---
+
+## ✅ Step 1: Create the **Products Page**
+
+1. Copy the code from the existing `home.html` file.
+2. Create a new file named `products.html`.
+3. Paste the copied code into `products.html`.
+4. Modify the content in `products.html` as needed to reflect product-related information.
+5. Ensure the **Products** page is properly linked in the navigation menu so users can access it.
+
+---
+
+## ✅ Step 2: Create the **About Page**
+
+1. Repeat the process used for the Products page:
+   - Copy the existing structure from `home.html`.
+   - Create a new file named `about.html`.
+   - Paste the code and update the content for the About section.
+2. Add a navigation link to the **About** page just like we did for the **Products** page.
+
+---
+
+## 📌 Summary
+
+- ✔️ We created `products.html` and linked it.
+- ✔️ We created `about.html` and linked it.
+- ✅ Navigation between all pages is now functional.
+
+> This marks the completion of **Lecture 4**.
