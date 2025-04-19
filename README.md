@@ -178,3 +178,72 @@ To fix this issue, we created a new file:
 ```plaintext
 contact.html
 ```
+
+# 📚 Lecture 6: Resolving Missing Navigation Links in the E-Commerce HTML Website
+
+**Date:** _[Add your date here]_  
+**Topic:** Fixing Navigation Issues Across Pages
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+In today's lecture, we identified and resolved a key issue related to missing navigation links on several pages of our e-commerce website.
+
+---
+
+## 🧐 Issue Faced
+
+While testing the website, we observed:
+
+- On clicking the **Home** page, the menu was **visible**, but the **links were missing**.
+- The same issue was found on the **Products** and **About** pages as well.
+
+This was affecting user experience and page connectivity.
+
+---
+
+## 🔍 Root Cause
+
+After inspecting the pages, we realized:
+
+> The navigation `<ul>` structure with all links was **incomplete** or **missing** on some pages.
+
+These pages included:
+
+- `index.html` (Home)
+- `products.html`
+- `about.html`
+
+---
+
+## 🛠️ Solution
+
+To resolve the issue:
+
+1. We **copied the complete `<ul>` navigation structure** from the `index.html` file.
+2. Then we **replaced the incomplete menus** in the affected pages with the full navigation block.
+3. Verified that each link correctly points to its respective page.
+
+---
+
+## ✅ Outcome
+
+After making these corrections:
+
+- All pages now display the full navigation menu.
+- Links are working **perfectly**.
+- Website navigation is now **fully functional** across all pages.
+
+---
+
+## 🙌 Conclusion
+
+This session focused on identifying and solving missing navigation links. The issue was resolved by copying and pasting the complete menu structure where it was missing.
+
+**See you in the next lecture!**
+
+**Allah Hafiz.**
+
+---
