@@ -179,71 +179,18 @@ To fix this issue, we created a new file:
 contact.html
 ```
 
-# 📚 Lecture 6: Resolving Missing Navigation Links in the E-Commerce HTML Website
+# Lecture 6 - Fixing Missing Navigation Links
 
-**Date:** _[Add your date here]_  
-**Topic:** Fixing Navigation Issues Across Pages
+Today, we resolved an issue where some pages (Home, Products, About) were displaying the navigation menu without functional links.
 
----
+### Root Cause:
 
-## 👋 Introduction
+Incomplete `<ul>` menu structure on those pages.
 
-**Assalamu Alaikum!**  
-In today's lecture, we identified and resolved a key issue related to missing navigation links on several pages of our e-commerce website.
+### Fix:
 
----
+Copied the full navigation menu from `index.html` and replaced the incomplete sections on affected pages.
 
-## 🧐 Issue Faced
+### Result:
 
-While testing the website, we observed:
-
-- On clicking the **Home** page, the menu was **visible**, but the **links were missing**.
-- The same issue was found on the **Products** and **About** pages as well.
-
-This was affecting user experience and page connectivity.
-
----
-
-## 🔍 Root Cause
-
-After inspecting the pages, we realized:
-
-> The navigation `<ul>` structure with all links was **incomplete** or **missing** on some pages.
-
-These pages included:
-
-- `index.html` (Home)
-- `products.html`
-- `about.html`
-
----
-
-## 🛠️ Solution
-
-To resolve the issue:
-
-1. We **copied the complete `<ul>` navigation structure** from the `index.html` file.
-2. Then we **replaced the incomplete menus** in the affected pages with the full navigation block.
-3. Verified that each link correctly points to its respective page.
-
----
-
-## ✅ Outcome
-
-After making these corrections:
-
-- All pages now display the full navigation menu.
-- Links are working **perfectly**.
-- Website navigation is now **fully functional** across all pages.
-
----
-
-## 🙌 Conclusion
-
-This session focused on identifying and solving missing navigation links. The issue was resolved by copying and pasting the complete menu structure where it was missing.
-
-**See you in the next lecture!**
-
-**Allah Hafiz.**
-
----
+Navigation links are now working correctly on all pages.
