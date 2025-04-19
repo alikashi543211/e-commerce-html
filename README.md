@@ -1,6 +1,7 @@
 # 📘 Lecture 1: E-Commerce HTML - Introduction
 
 ## 🎯 Objective
+
 To create a basic e-commerce website using **HTML** for selling products like laptops and mobiles online.
 
 ---
@@ -31,14 +32,14 @@ To create a basic e-commerce website using **HTML** for selling products like la
 
 Let’s start building the project and explore how we can make this e-commerce website using HTML.
 
-
-
 # 📘 Lecture 2: Introduction to E-Commerce Website in HTML
 
 ## 💡 Project Name:
+
 **e_commerce_website_html**
 
 ## 🔹 Objective:
+
 I have a stock of **laptops and mobiles** and I want to sell them online.  
 The solution is to build an **E-Commerce website** so customers can buy products from my website easily.
 
@@ -68,7 +69,6 @@ The solution is to build an **E-Commerce website** so customers can buy products
 
 ✅ **Next Step**: We’ll continue building and enhancing the menu and connect it to all important pages.
 
-
 # 📘 Lecture 3: Creating Home Page with DIV Tag
 
 In this lecture, we learned how to create the **Home Page** for our E-commerce website.
@@ -76,21 +76,26 @@ In this lecture, we learned how to create the **Home Page** for our E-commerce w
 ## 🔹 Key Points:
 
 ### ✅ Copy Structure:
+
 We copied the `index.html` file and saved it as `home.html` for the homepage layout.
 
 ### ✅ Understanding `<div>` Tag:
+
 The `<div>` tag is used to create sections or blocks on a web page.  
 We created **3 boxes**, and each box is made using a `<div>` tag.
 
 ### ✅ Navigation Setup:
+
 We linked the **Home** button to `home.html` so that clicking on it opens the Home page.
 
 ### ✅ Next Step:
+
 You will create all other pages similarly and use `<div>` tags to organize content on each page.
 
 ---
 
 ✅ **That’s it — you now know how to build a structured homepage using HTML and the `<div>` tag!**
+
 # Lecture 4: Creating and Linking New Pages
 
 In this lecture, we will create new pages for our website and link them properly to ensure smooth navigation.
@@ -124,3 +129,52 @@ In this lecture, we will create new pages for our website and link them properly
 - ✅ Navigation between all pages is now functional.
 
 > This marks the completion of **Lecture 4**.
+
+# 📚 Lecture 5: Creating and Linking Pages in an E-Commerce HTML Website
+
+**Date:** _19_April_2025_  
+**Topic:** Connecting Pages and Creating the Contact Page
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+I hope you all are doing well.
+
+In today’s lecture, we will focus on completing the internal linking of our e-commerce website and creating any missing pages.
+
+---
+
+## ✅ Objectives of the Lecture
+
+- Complete internal page links
+- Ensure smooth navigation between all sections
+- Identify and resolve missing pages
+- Create the **Contact Page**
+
+---
+
+## 🔗 Linking the Pages
+
+We began by ensuring all navigation links (e.g., Home, Products, About, Cart, etc.) are correctly connected to their respective HTML files. This step is essential to maintain a seamless user experience throughout the website.
+
+---
+
+## ❌ Contact Page Issue
+
+While testing the navigation, we noticed that the **Contact** page link was not working.
+
+**Problem Identified:**
+
+> The `contact.html` file does not exist yet — that’s why the page is not opening.
+
+---
+
+## 🛠️ Solution: Create the Contact Page
+
+To fix this issue, we created a new file:
+
+```plaintext
+contact.html
+```
