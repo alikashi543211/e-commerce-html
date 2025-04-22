@@ -194,3 +194,61 @@ Copied the full navigation menu from `index.html` and replaced the incomplete se
 ### Result:
 
 Navigation links are now working correctly on all pages.
+
+# Lecture 7: Add Home Page Content
+
+## 📌 Objective
+
+In this lecture, we will enhance our homepage by adding a banner image and a heading.
+
+---
+
+## ✅ What We Did Previously
+
+We had a simple message displayed on the home page:
+
+```html
+<div>Welcome to Home</div>
+```
+
+---
+
+## 🚀 Today's Goals
+
+We will now update the home page with proper content:
+
+### 1. Search & Download Banner Image
+
+- Go to Google and search for:  
+  **"Home Banner Image for E-Commerce Website"**
+- Download a banner image that suits your homepage design.
+
+### 2. Project Setup
+
+- Create an `images` folder inside your project directory (if not already present).
+- Place the downloaded banner image inside the `images` folder.
+
+### 3. Update Home Page Code
+
+In your HTML file, add the following code:
+
+```html
+<h1>Welcome to Our E-Commerce Store</h1>
+<img src="images/banner.jpg" width="900px" alt="E-Commerce Banner" />
+```
+
+> Replace `banner.jpg` with your actual image filename.
+
+---
+
+## 🎉 Summary
+
+- Added a heading (`<h1>`) to the homepage.
+- Displayed a banner image with a width of 900px.
+- Improved the visual presentation of the homepage.
+
+---
+
+**Thank you!**  
+See you in the next video.  
+**Allah Hafiz.**
