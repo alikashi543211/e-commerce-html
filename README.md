@@ -252,3 +252,25 @@ In your HTML file, add the following code:
 **Thank you!**  
 See you in the next video.  
 **Allah Hafiz.**
+
+# Lecture 8: Page Titles & About Page Description
+
+**Assalamu Alaikum!**  
+I hope you're doing well.
+
+---
+
+## ✅ Page Titles
+
+All page titles have been successfully set.
+
+---
+
+## 📝 About Page Description
+
+Next, we moved on to updating the **About Us** page description.  
+The content has been added and reviewed.
+
+---
+
+That’s it for now — take care and see you in the next lecture!
