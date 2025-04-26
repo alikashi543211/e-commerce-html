@@ -274,3 +274,49 @@ The content has been added and reviewed.
 ---
 
 That’s it for now — take care and see you in the next lecture!
+
+# Lecture 9: Contact Us Page with Form and Contact Details
+
+## 📌 Summary
+
+In the previous lecture, we added content to the **About Us** page of our E-Commerce website.  
+In this lecture, we created the **Contact Us** page, including a user-friendly contact form and business contact information.
+
+## 🎯 Objective
+
+- Add a contact form for users to submit inquiries.
+- Provide official contact details (email and phone).
+- Maintain consistency in website layout and navigation.
+
+## ✅ Key Points
+
+- The page includes fields for name, email, subject, and message.
+- A submit button sends the form to a `thank_you.html` page.
+- Users can also reach out via the listed email and phone number.
+
+---
+
+Thanks for following along.  
+**We’ll see you in the next lecture!**
+
+# Lecture 10: Thank You Page After Contact Form Submission
+
+## 📌 Summary
+
+In the previous lecture, we created a **Contact Us** form. In this lecture, we added a **Thank You** page that appears after a user submits the form.
+
+## 🎯 Objective
+
+- Design a simple thank you page.
+- Display it after successful form submission from the contact form.
+
+## ✅ Key Points
+
+- The thank you page confirms message delivery to the user.
+- It includes a navigation menu for user convenience.
+- This improves user experience by providing feedback on form submission.
+
+---
+
+Thank you for following along.  
+**We’ll see you in the next lecture!**
