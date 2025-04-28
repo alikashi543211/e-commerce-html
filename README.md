@@ -320,3 +320,38 @@ In the previous lecture, we created a **Contact Us** form. In this lecture, we a
 
 Thank you for following along.  
 **We’ll see you in the next lecture!**
+
+# Lecture 11: Creating Login and Registration Forms
+---
+
+## Overview
+
+In today's lecture, we started working on **Login** and **Registration** forms using only **HTML**.
+
+The objective is to allow users to:
+
+- **Login** to the e-commerce website.
+- **Register** for a new account.
+
+These forms are the first step towards building a fully functional e-commerce platform.
+
+---
+
+## What We Did
+
+- Created a basic **Login Form** using HTML `<form>`, `<input>`, and `<button>` elements.
+- Created a basic **Registration Form** with fields like name, email, and password.
+- Kept the structure simple and easy to understand for beginners.
+- Focused purely on **HTML form structure** without adding any CSS or backend functionality.
+
+---
+
+## Summary
+
+- Users can now see basic **Login** and **Register** forms on the website.
+- No styling (CSS) or functionality (backend) is added yet — only pure **HTML structure**.
+- This builds a strong foundation for future styling and dynamic features.
+
+---
+
+**Allah Hafiz!** 👋
