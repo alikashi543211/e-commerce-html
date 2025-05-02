@@ -521,3 +521,62 @@ That’s great! The success pages are working as expected.
 ---
 
 **Okay, Allah Hafiz.**
+
+# 📘 Lecture #15 - Adding Validation to Login and Register Forms
+
+**AoA!! Hope you are fine!**
+
+---
+
+## 🧾 Today’s Objective
+
+In this lecture, we will add **validation** to the **Login** and **Register** forms on our e-commerce website.
+
+---
+
+## 🚫 Problem Description
+
+Currently, if a user tries to log in **without entering** an email or password, the system still logs them in.
+
+This is a major issue.
+
+---
+
+## ✅ Desired Behavior
+
+We want to ensure that:
+
+- Users **must enter** an email and password to log in.
+- Only then should they be redirected to the **success page**.
+
+---
+
+## 🔍 Let's Debug
+
+We test the current login setup.
+
+As seen, we did **not enter** the email or password — yet the system logged us in.
+
+This should **not happen**.
+
+---
+
+## 🛠️ Solution
+
+The solution is to use:
+
+> `"required"`
+
+This will ensure that the fields **must be filled** before submission.
+
+---
+
+## ✨ Apply to Register Form
+
+Now, let's apply the same validation to the **Register** form.
+
+We'll add the `required` attribute to the **email** and **password** fields in the register form as well.
+
+---
+
+✅ That’s great! Now our forms are properly validated.
