@@ -481,3 +481,43 @@ When using `<img>` tags in your HTML file, ensure the file extension matches the
 ```html
 <img src="images/product1.jpg" alt="Product 1" />
 ```
+
+# 📘 Lecture #14 - Success Pages in E-commerce Website
+
+**AoA — Hope you are fine!**
+
+Today, we will learn how to create **success pages** for our e-commerce website.
+
+---
+
+## ✅ Success Pages Overview
+
+### 🧑‍💻 When a Customer Logs In
+
+When a customer logs into our e-commerce website, they should be redirected to a **success page** that displays the message:
+
+> ✅ Logged in successfully...
+
+---
+
+### 🆕 When a Customer Registers
+
+Similarly, when a customer registers an account on our website, they should be redirected to a **success page** that displays the message:
+
+> 🎉 Registered successfully...
+
+---
+
+## 🛠️ Let’s Implement
+
+Let’s check and see what the issue is if the success message is **not showing**.
+
+---
+
+## ✅ Final Outcome
+
+That’s great! The success pages are working as expected.
+
+---
+
+**Okay, Allah Hafiz.**
