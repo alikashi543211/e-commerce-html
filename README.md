@@ -322,6 +322,7 @@ Thank you for following along.
 **We’ll see you in the next lecture!**
 
 # Lecture 11: Creating Login and Registration Forms
+
 ---
 
 ## Overview
@@ -355,3 +356,128 @@ These forms are the first step towards building a fully functional e-commerce pl
 ---
 
 **Allah Hafiz!** 👋
+
+# 📘 Lecture #12 – E-Commerce Website in HTML
+
+### 📆 Topic: Building the Products Page
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+In today's lecture, we took a significant step forward in our e-commerce website project. Our focus was on designing and developing the **Products Page** using HTML. This page will serve as the main area where customers browse through all the available products.
+
+> ✅ “Customer jab hamari website pe aaen ge to unhen products b to show krwaani hey na – To Let's Seeeeee!!!”
+
+---
+
+## 🎯 Objective
+
+- Build a visually appealing and user-friendly **Products Page** using pure HTML.
+- Structure the product layout so customers can easily view available items.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **HTML5** – Page structure
+- **CSS3** _(optional in this lecture)_ – Basic styling (may be added later)
+- **Images** – Product visuals
+- **VS Code** or any preferred code editor
+
+---
+
+## 📌 What We Did
+
+- Created a new file: `products.html`
+- Designed the basic layout using `div` and `section` tags
+- Displayed static product cards with the following:
+  - Product Image
+  - Product Title
+  - Price
+  - Add to Cart Button
+
+---
+
+## 💡 Sample Code Snippet
+
+```html
+<div class="product-card">
+  <img src="images/product1.jpg" alt="Product Image" />
+  <h3>Product Title</h3>
+  <p>Price: $49.99</p>
+  <button>Add to Cart</button>
+</div>
+```
+
+# 📘 Lecture #13 – E-Commerce Website in HTML
+
+### 📸 Topic: Downloading & Organizing Product Images
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+In today's lecture, we focused on an important part of building our e-commerce website — **downloading and organizing product images**. A good product display starts with clear, well-labeled images stored in a proper folder structure.
+
+> ✅ “Let's Seeeeeeeeeeee how we manage product images!”
+
+---
+
+## 🎯 Objective
+
+- Download sample product images from the internet.
+- Rename the images consistently (e.g., `product1.jpg`, `product2.jpg`).
+- Save all images inside a dedicated `images/` folder for better organization.
+- Check the correct image file extensions before using them in the project.
+
+---
+
+## 📁 Folder Structure
+
+We created the following structure:
+
+project-folder/
+│
+├── index.html
+├── products.html
+└── images/
+├── product1.jpg
+├── product2.jpg
+├── product3.jpg
+└── ...
+
+---
+
+## 📌 Steps Performed
+
+1. **Downloaded high-quality product images** from royalty-free sources like:
+
+   - [Pexels](https://www.pexels.com/)
+   - [Unsplash](https://unsplash.com/)
+   - [Pixabay](https://pixabay.com/)
+
+2. **Renamed** each image to keep things organized:
+
+   - `product1.jpg`
+   - `product2.jpg`
+   - `product3.jpg`
+
+3. **Saved** the images in the `images/` directory of the project.
+
+4. **Checked image extensions** (e.g., `.jpg`, `.jpeg`, `.png`) by:
+   - Right-clicking the image file
+   - Clicking **Properties**
+   - Looking under the **Type of file**
+
+---
+
+## 💡 Tip
+
+When using `<img>` tags in your HTML file, ensure the file extension matches the actual image file:
+
+```html
+<img src="images/product1.jpg" alt="Product 1" />
+```
