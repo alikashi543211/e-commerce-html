@@ -580,3 +580,77 @@ We'll add the `required` attribute to the **email** and **password** fields in t
 ---
 
 ✅ That’s great! Now our forms are properly validated.
+
+# Lecture 16 - Ecommerce in HTML: Product Detail Page
+
+**Objective:**  
+Create a product detail page and link it from the product listing.
+
+---
+
+## What is a Detail Page?
+
+A detail page shows complete info about a specific product.
+
+**Example:**  
+On [PriceOye](https://priceoye.pk/), click any product (e.g., Samsung Galaxy) → it opens a detail page.
+
+---
+
+## Steps:
+
+1. Create a new HTML file for the product detail.
+2. Show product title, image, price, and description.
+3. On the products page, add a link below each product:
+   ```html
+   <a href="product-detail.html">View Details</a>
+   ```
+
+# Lecture 17 - Add to Cart Link (E-Commerce in HTML)
+
+**AOA! I hope you are fine.**
+
+Today, we will visit the [PriceOye](https://priceoye.pk) website to understand the **Add to Cart** functionality.
+
+### What We Observed:
+
+1. PriceOye displays multiple products.
+2. Clicking on any product opens the **product detail page**.
+3. The detail page contains an **"Add to Cart"** button.
+
+### Our Task:
+
+- We will implement the same behavior by adding an `Add to Cart` link on our `product_detail.html` page.
+
+### ✅ What We Did:
+
+- Added the following link inside the product detail:
+
+```html
+<p><a href="add_to_cart.html">Add to Cart</a></p>
+```
+
+# Lecture 18 - Creating the Add to Cart Page (E-Commerce in HTML)
+
+**AOA! I hope you are fine.**  
+That's great!
+
+### Recap:
+
+In the previous lecture, we added the `Add to Cart` link on the `product_detail.html` page.  
+However, we did **not create** the actual `add_to_cart.html` page yet.
+
+### Today's Task:
+
+We will now create the **Add to Cart** page.
+
+✅ **Filename:**  
+Use `add_to_cart.html`  
+➡️ Use an underscore `_` in the file name (not a space).
+
+### Summary:
+
+- We are creating the page where added products will be shown.
+- This is an important part of any e-commerce website.
+
+Let's get started with coding the `add_to_cart.html` page!
