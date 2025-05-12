@@ -730,3 +730,45 @@ Now let’s start coding the **Shopping Cart Page**, step by step:
 
 **Let’s code this together and see how it works!**  
 🎉 Happy Learning!
+
+# 🧑‍🏫 Lecture 20 – Shopping Cart in HTML (Daraz Style)
+
+## 📘 Part 1: Designing the Shopping Cart Page
+
+**Assalamualaikum!**  
+I hope you are all fine and ready for another productive session.
+
+In today’s lecture, we will create a **shopping cart page** using only HTML.  
+Our goal is to design a cart page that resembles the one used on **Daraz.pk**.
+
+Let's first take a look at how the Daraz cart page looks and behaves.
+
+📌 **Daraz Cart Page Features**:
+
+- Shows a list of added products
+- Displays quantity, price, subtotal, and options to remove or update
+- Clean and user-friendly layout
+
+---
+
+## 📗 Part 2: Continue Coding and Styling with Basic HTML
+
+Now let’s continue with our cart development!
+
+- We have already created the **shopping cart structure** using HTML.
+- The table shows products, and users can interact with quantity fields.
+- Let’s enhance this table by adding **borders** for better visibility.
+
+✅ We’ve now built a fully working cart **just like Daraz**, using only HTML.  
+There’s no CSS or JavaScript yet — we’re focusing purely on structure and layout.
+
+This forms the **foundation** of eCommerce front-end design.
+
+---
+
+## ✅ Summary
+
+🎉 So that's great! Our **Shopping Cart Page** is now ready and looks similar to Daraz.  
+We’ve done this using only HTML — an important milestone in learning web development basics.
+
+**Thank you, and Allah Hafiz! 🙏**
