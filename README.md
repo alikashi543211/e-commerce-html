@@ -654,3 +654,79 @@ Use `add_to_cart.html`
 - This is an important part of any e-commerce website.
 
 Let's get started with coding the `add_to_cart.html` page!
+
+# 🧑‍🏫 Lecture 19 – Shopping Cart Feature 🛒
+
+**Assalamualaikum!**  
+I hope you're all doing great — that’s wonderful!
+
+In today’s session, we are exploring how the **"Add to Cart"** feature works, inspired by real-world eCommerce websites like **Daraz.pk**.
+
+---
+
+## ✅ Objective
+
+To understand how the shopping cart works from the product detail page all the way to the cart interface, and then implement a similar version on our own website.
+
+---
+
+## 🧩 Step-by-Step Concept
+
+### 1. Add to Cart from Product Detail Page
+
+- We already added the **Add to Cart** link/button on the product detail page.
+- That’s working fine.
+- Now let's observe how **Daraz.pk** handles this.
+
+### 2. Daraz Example
+
+- When we click "Add to Cart" on Daraz, the product is added to the cart successfully.
+- Similarly, we want to achieve the same behavior on our site.
+
+---
+
+## 🛍️ Shopping Cart Page
+
+We aim to build a shopping cart page that functions just like Daraz:
+
+- Shows a list of **products added by the customer**.
+- Each product has:
+  - Product Name
+  - Price
+  - Quantity
+  - Subtotal
+  - Remove Button
+- Customers can **increase or decrease quantity** using **+ / - buttons**.
+
+---
+
+## 🔗 Cart Page Link
+
+Just like we add links for `Home`, `About`, and `Contact`, we’ll also add a link for **Cart** in our navigation menu.
+
+This link will take the user to our **shopping cart page**, where they can view or update their cart.
+
+---
+
+## 🛠️ Next Step: Coding
+
+Now let’s start coding the **Shopping Cart Page**, step by step:
+
+- Create a new HTML file: `shopping-cart.html`
+- Display products in a table or list format
+- Add quantity controls (+ / -)
+- Calculate and display total price
+
+---
+
+## 💡 Summary
+
+- We observed how Daraz handles cart functionality
+- We're replicating this in our own system
+- The cart page will dynamically show products added by the customer
+- Quantity controls and price totals are part of the cart experience
+
+---
+
+**Let’s code this together and see how it works!**  
+🎉 Happy Learning!
