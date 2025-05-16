@@ -322,6 +322,7 @@ Thank you for following along.
 **We’ll see you in the next lecture!**
 
 # Lecture 11: Creating Login and Registration Forms
+
 ---
 
 ## Overview
@@ -355,3 +356,419 @@ These forms are the first step towards building a fully functional e-commerce pl
 ---
 
 **Allah Hafiz!** 👋
+
+# 📘 Lecture #12 – E-Commerce Website in HTML
+
+### 📆 Topic: Building the Products Page
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+In today's lecture, we took a significant step forward in our e-commerce website project. Our focus was on designing and developing the **Products Page** using HTML. This page will serve as the main area where customers browse through all the available products.
+
+> ✅ “Customer jab hamari website pe aaen ge to unhen products b to show krwaani hey na – To Let's Seeeeee!!!”
+
+---
+
+## 🎯 Objective
+
+- Build a visually appealing and user-friendly **Products Page** using pure HTML.
+- Structure the product layout so customers can easily view available items.
+
+---
+
+## 🛠️ Tools & Technologies Used
+
+- **HTML5** – Page structure
+- **CSS3** _(optional in this lecture)_ – Basic styling (may be added later)
+- **Images** – Product visuals
+- **VS Code** or any preferred code editor
+
+---
+
+## 📌 What We Did
+
+- Created a new file: `products.html`
+- Designed the basic layout using `div` and `section` tags
+- Displayed static product cards with the following:
+  - Product Image
+  - Product Title
+  - Price
+  - Add to Cart Button
+
+---
+
+## 💡 Sample Code Snippet
+
+```html
+<div class="product-card">
+  <img src="images/product1.jpg" alt="Product Image" />
+  <h3>Product Title</h3>
+  <p>Price: $49.99</p>
+  <button>Add to Cart</button>
+</div>
+```
+
+# 📘 Lecture #13 – E-Commerce Website in HTML
+
+### 📸 Topic: Downloading & Organizing Product Images
+
+---
+
+## 👋 Introduction
+
+**Assalamu Alaikum!**  
+In today's lecture, we focused on an important part of building our e-commerce website — **downloading and organizing product images**. A good product display starts with clear, well-labeled images stored in a proper folder structure.
+
+> ✅ “Let's Seeeeeeeeeeee how we manage product images!”
+
+---
+
+## 🎯 Objective
+
+- Download sample product images from the internet.
+- Rename the images consistently (e.g., `product1.jpg`, `product2.jpg`).
+- Save all images inside a dedicated `images/` folder for better organization.
+- Check the correct image file extensions before using them in the project.
+
+---
+
+## 📁 Folder Structure
+
+We created the following structure:
+
+project-folder/
+│
+├── index.html
+├── products.html
+└── images/
+├── product1.jpg
+├── product2.jpg
+├── product3.jpg
+└── ...
+
+---
+
+## 📌 Steps Performed
+
+1. **Downloaded high-quality product images** from royalty-free sources like:
+
+   - [Pexels](https://www.pexels.com/)
+   - [Unsplash](https://unsplash.com/)
+   - [Pixabay](https://pixabay.com/)
+
+2. **Renamed** each image to keep things organized:
+
+   - `product1.jpg`
+   - `product2.jpg`
+   - `product3.jpg`
+
+3. **Saved** the images in the `images/` directory of the project.
+
+4. **Checked image extensions** (e.g., `.jpg`, `.jpeg`, `.png`) by:
+   - Right-clicking the image file
+   - Clicking **Properties**
+   - Looking under the **Type of file**
+
+---
+
+## 💡 Tip
+
+When using `<img>` tags in your HTML file, ensure the file extension matches the actual image file:
+
+```html
+<img src="images/product1.jpg" alt="Product 1" />
+```
+
+# 📘 Lecture #14 - Success Pages in E-commerce Website
+
+**AoA — Hope you are fine!**
+
+Today, we will learn how to create **success pages** for our e-commerce website.
+
+---
+
+## ✅ Success Pages Overview
+
+### 🧑‍💻 When a Customer Logs In
+
+When a customer logs into our e-commerce website, they should be redirected to a **success page** that displays the message:
+
+> ✅ Logged in successfully...
+
+---
+
+### 🆕 When a Customer Registers
+
+Similarly, when a customer registers an account on our website, they should be redirected to a **success page** that displays the message:
+
+> 🎉 Registered successfully...
+
+---
+
+## 🛠️ Let’s Implement
+
+Let’s check and see what the issue is if the success message is **not showing**.
+
+---
+
+## ✅ Final Outcome
+
+That’s great! The success pages are working as expected.
+
+---
+
+**Okay, Allah Hafiz.**
+
+# 📘 Lecture #15 - Adding Validation to Login and Register Forms
+
+**AoA!! Hope you are fine!**
+
+---
+
+## 🧾 Today’s Objective
+
+In this lecture, we will add **validation** to the **Login** and **Register** forms on our e-commerce website.
+
+---
+
+## 🚫 Problem Description
+
+Currently, if a user tries to log in **without entering** an email or password, the system still logs them in.
+
+This is a major issue.
+
+---
+
+## ✅ Desired Behavior
+
+We want to ensure that:
+
+- Users **must enter** an email and password to log in.
+- Only then should they be redirected to the **success page**.
+
+---
+
+## 🔍 Let's Debug
+
+We test the current login setup.
+
+As seen, we did **not enter** the email or password — yet the system logged us in.
+
+This should **not happen**.
+
+---
+
+## 🛠️ Solution
+
+The solution is to use:
+
+> `"required"`
+
+This will ensure that the fields **must be filled** before submission.
+
+---
+
+## ✨ Apply to Register Form
+
+Now, let's apply the same validation to the **Register** form.
+
+We'll add the `required` attribute to the **email** and **password** fields in the register form as well.
+
+---
+
+✅ That’s great! Now our forms are properly validated.
+
+# Lecture 16 - Ecommerce in HTML: Product Detail Page
+
+**Objective:**  
+Create a product detail page and link it from the product listing.
+
+---
+
+## What is a Detail Page?
+
+A detail page shows complete info about a specific product.
+
+**Example:**  
+On [PriceOye](https://priceoye.pk/), click any product (e.g., Samsung Galaxy) → it opens a detail page.
+
+---
+
+## Steps:
+
+1. Create a new HTML file for the product detail.
+2. Show product title, image, price, and description.
+3. On the products page, add a link below each product:
+   ```html
+   <a href="product-detail.html">View Details</a>
+   ```
+
+# Lecture 17 - Add to Cart Link (E-Commerce in HTML)
+
+**AOA! I hope you are fine.**
+
+Today, we will visit the [PriceOye](https://priceoye.pk) website to understand the **Add to Cart** functionality.
+
+### What We Observed:
+
+1. PriceOye displays multiple products.
+2. Clicking on any product opens the **product detail page**.
+3. The detail page contains an **"Add to Cart"** button.
+
+### Our Task:
+
+- We will implement the same behavior by adding an `Add to Cart` link on our `product_detail.html` page.
+
+### ✅ What We Did:
+
+- Added the following link inside the product detail:
+
+```html
+<p><a href="add_to_cart.html">Add to Cart</a></p>
+```
+
+# Lecture 18 - Creating the Add to Cart Page (E-Commerce in HTML)
+
+**AOA! I hope you are fine.**  
+That's great!
+
+### Recap:
+
+In the previous lecture, we added the `Add to Cart` link on the `product_detail.html` page.  
+However, we did **not create** the actual `add_to_cart.html` page yet.
+
+### Today's Task:
+
+We will now create the **Add to Cart** page.
+
+✅ **Filename:**  
+Use `add_to_cart.html`  
+➡️ Use an underscore `_` in the file name (not a space).
+
+### Summary:
+
+- We are creating the page where added products will be shown.
+- This is an important part of any e-commerce website.
+
+Let's get started with coding the `add_to_cart.html` page!
+
+# 🧑‍🏫 Lecture 19 – Shopping Cart Feature 🛒
+
+**Assalamualaikum!**  
+I hope you're all doing great — that’s wonderful!
+
+In today’s session, we are exploring how the **"Add to Cart"** feature works, inspired by real-world eCommerce websites like **Daraz.pk**.
+
+---
+
+## ✅ Objective
+
+To understand how the shopping cart works from the product detail page all the way to the cart interface, and then implement a similar version on our own website.
+
+---
+
+## 🧩 Step-by-Step Concept
+
+### 1. Add to Cart from Product Detail Page
+
+- We already added the **Add to Cart** link/button on the product detail page.
+- That’s working fine.
+- Now let's observe how **Daraz.pk** handles this.
+
+### 2. Daraz Example
+
+- When we click "Add to Cart" on Daraz, the product is added to the cart successfully.
+- Similarly, we want to achieve the same behavior on our site.
+
+---
+
+## 🛍️ Shopping Cart Page
+
+We aim to build a shopping cart page that functions just like Daraz:
+
+- Shows a list of **products added by the customer**.
+- Each product has:
+  - Product Name
+  - Price
+  - Quantity
+  - Subtotal
+  - Remove Button
+- Customers can **increase or decrease quantity** using **+ / - buttons**.
+
+---
+
+## 🔗 Cart Page Link
+
+Just like we add links for `Home`, `About`, and `Contact`, we’ll also add a link for **Cart** in our navigation menu.
+
+This link will take the user to our **shopping cart page**, where they can view or update their cart.
+
+---
+
+## 🛠️ Next Step: Coding
+
+Now let’s start coding the **Shopping Cart Page**, step by step:
+
+- Create a new HTML file: `shopping-cart.html`
+- Display products in a table or list format
+- Add quantity controls (+ / -)
+- Calculate and display total price
+
+---
+
+## 💡 Summary
+
+- We observed how Daraz handles cart functionality
+- We're replicating this in our own system
+- The cart page will dynamically show products added by the customer
+- Quantity controls and price totals are part of the cart experience
+
+---
+
+**Let’s code this together and see how it works!**  
+🎉 Happy Learning!
+
+# 🧑‍🏫 Lecture 20 – Shopping Cart in HTML (Daraz Style)
+
+## 📘 Part 1: Designing the Shopping Cart Page
+
+**Assalamualaikum!**  
+I hope you are all fine and ready for another productive session.
+
+In today’s lecture, we will create a **shopping cart page** using only HTML.  
+Our goal is to design a cart page that resembles the one used on **Daraz.pk**.
+
+Let's first take a look at how the Daraz cart page looks and behaves.
+
+📌 **Daraz Cart Page Features**:
+
+- Shows a list of added products
+- Displays quantity, price, subtotal, and options to remove or update
+- Clean and user-friendly layout
+
+---
+
+## 📗 Part 2: Continue Coding and Styling with Basic HTML
+
+Now let’s continue with our cart development!
+
+- We have already created the **shopping cart structure** using HTML.
+- The table shows products, and users can interact with quantity fields.
+- Let’s enhance this table by adding **borders** for better visibility.
+
+✅ We’ve now built a fully working cart **just like Daraz**, using only HTML.  
+There’s no CSS or JavaScript yet — we’re focusing purely on structure and layout.
+
+This forms the **foundation** of eCommerce front-end design.
+
+---
+
+## ✅ Summary
+
+🎉 So that's great! Our **Shopping Cart Page** is now ready and looks similar to Daraz.  
+We’ve done this using only HTML — an important milestone in learning web development basics.
+
+**Thank you, and Allah Hafiz! 🙏**
