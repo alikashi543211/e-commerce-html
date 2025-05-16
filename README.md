@@ -772,3 +772,73 @@ This forms the **foundation** of eCommerce front-end design.
 We’ve done this using only HTML — an important milestone in learning web development basics.
 
 **Thank you, and Allah Hafiz! 🙏**
+
+
+# 📦 Lecture 21: Checkout Screen – E-Commerce Flow
+
+## 🎯 Scenario
+
+A customer has added some products to the cart and now wants to proceed with placing an order for **home delivery**.
+
+---
+
+## 🛒 Current Status
+
+- ✅ Products are successfully added to the **shopping cart**.
+
+---
+
+## 📍 What Does the Customer Want?
+
+The customer wants to:
+
+1. Provide their **home address**.
+2. Choose a **payment method**:
+   - **Online Payment**
+   - **Cash on Delivery (COD)**
+
+3. Finally, place the order so it can be processed by the **E-Commerce Admin**.
+
+---
+
+## ✅ Solution: The Checkout Screen
+
+We need to display a proper **Checkout Screen** where the customer can:
+
+### 1. 🏡 Enter Delivery Address
+
+- Full Name  
+- Mobile Number  
+- City  
+- Full Address  
+- (Optional) Address Notes or Landmarks
+
+---
+
+### 2. 💳 Choose Payment Method
+
+Let the customer select one of the following:
+
+- 💰 **Cash on Delivery**  
+- 🧾 **Online Payment (Card/Banking/Wallet etc.)**
+
+---
+
+### 3. 📤 Place the Order
+
+Once the address and payment method are confirmed:
+
+- The order details will be sent to the **E-Commerce Admin Panel**.
+- Admin can then process and dispatch the order for delivery.
+
+---
+
+## 💡 Summary
+
+> This entire flow — from confirming the cart, collecting address and payment details, to placing the order — is called the **Checkout Process** in an e-commerce system.
+
+Let’s now build this screen and complete the user journey!
+
+---
+
+**Happy Coding 👨‍💻 – Let's build the Checkout Screen!**
