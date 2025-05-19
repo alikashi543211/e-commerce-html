@@ -877,15 +877,10 @@ In this final HTML lecture, we created a clean and simple **Order Success** page
 ## 🧾 HTML Code (Plain HTML Only)
 
 ```html
-<!DOCTYPE html>
-<html>
-<head>
-  <title>Order Success</title>
-</head>
-<body>
+<div>
   <h1>Thank You for Your Order!</h1>
   <p>Your order has been placed successfully.</p>
-
   <a href="products.html">← Continue Shopping</a>
-</body>
+</div>
 </html>
+```
