@@ -882,5 +882,4 @@ In this final HTML lecture, we created a clean and simple **Order Success** page
   <p>Your order has been placed successfully.</p>
   <a href="products.html">← Continue Shopping</a>
 </div>
-</html>
 ```
