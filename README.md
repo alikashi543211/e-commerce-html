@@ -854,15 +854,14 @@ In this lecture, we enhance the shopping cart page by adding two key buttons:
 ## 🛒 Cart Page Button Integration (HTML)
 
 Add the following HTML code to your `cart.html` or relevant cart section:
-
 ```html
 <div>
   <a href="products.html">← Continue Shopping</a>
   <a href="checkout.html">Proceed to Checkout →</a>
 </div>
+```
 
----
-# ✅ Lecture 23: Order Success Page – Ecommerce Tutorial Series
+# ✅ Lecture 23: Order Success Page
 
 In this final HTML lecture, we created a clean and simple **Order Success** page. This page appears after a successful checkout and confirms the customer's order.
 
