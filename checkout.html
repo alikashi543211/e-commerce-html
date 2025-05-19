@@ -43,7 +43,7 @@
     </ul>
     <div>
         <h2>User - Checkout</h2>
-        <form action="successRegister.html">
+        <form action="order_success.html">
             <input type="text" name="full_name" placeholder="Name"><br><br>
             <input type="text" name="mobile_number" placeholder="Mobile Number"><br><br>
             <input type="text" name="email" placeholder="Email" required><br><br>
@@ -52,8 +52,12 @@
             <input type="text" name="city" placeholder="Address" required><br>
             <br>
             <label>Select Payment Method</label>
-            <input type="radio"> Cash On Delivery <br><br>
-            <input type="submit" value="Submit">
+            <input name="payment_method" type="radio"> Cash On Delivery <br><br>
+            <input name="payment_method" type="radio"> Online <br><br>
+            <!-- button ka name change kar den -->
+            <!-- ye green me jo me likh ra hon isey comment add krna kahtey hen -->
+            <!-- comment add krney k lye command ye ___ " Control / " control slash kren ge -->
+            <input type="submit" value="Place Order">
         </form>
     </div>
 </body>

@@ -842,3 +842,51 @@ Let’s now build this screen and complete the user journey!
 ---
 
 **Happy Coding 👨‍💻 – Let's build the Checkout Screen!**
+# Lecture 22: Shopping Cart Buttons
+
+In this lecture, we enhance the shopping cart page by adding two key buttons:
+
+- **Continue Shopping**
+- **Proceed to Checkout**
+
+---
+
+## 🛒 Cart Page Button Integration (HTML)
+
+Add the following HTML code to your `cart.html` or relevant cart section:
+
+```html
+<div>
+  <a href="products.html">← Continue Shopping</a>
+  <a href="checkout.html">Proceed to Checkout →</a>
+</div>
+
+---
+# ✅ Lecture 23: Order Success Page – Ecommerce Tutorial Series
+
+In this final HTML lecture, we created a clean and simple **Order Success** page. This page appears after a successful checkout and confirms the customer's order.
+
+---
+
+## 📄 Page Details
+
+- **Page Name:** `order_success.html`
+- **Purpose:** Display a confirmation message after the order is placed and allow the user to return to the products listing page.
+
+---
+
+## 🧾 HTML Code (Plain HTML Only)
+
+```html
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Order Success</title>
+</head>
+<body>
+  <h1>Thank You for Your Order!</h1>
+  <p>Your order has been placed successfully.</p>
+
+  <a href="products.html">← Continue Shopping</a>
+</body>
+</html>
