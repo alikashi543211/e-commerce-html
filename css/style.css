@@ -1,12 +1,51 @@
 .welcome_heading {
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 60px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+#welcome_heading_home {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px; // yahaan par mene size kam kr diy
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+#welcome_heading_products_page {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px; // yahaan par mene size kam kr diy
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+}
+
+.product_title_text {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px; // yahaan par mene size kam kr diy
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
