@@ -222,3 +222,102 @@
 .cart_item {
     color: blue;
 }
+
+.home_page_image {
+    height: 300px;
+    width: 900px;
+}
+
+.product_image {
+    height: 400px;
+    width: 600px;
+}
+
+.web_page_body {
+    /** 
+    image repeat ho ri he 
+    center me krta hon
+    full screen pe image ani chahiye
+    scroll check krtey hen k background image fix he ??
+    YESS !! background image fix he sirf content move kr raha he
+
+    */
+    background: url('../images/ecommerce_image_3.PNG');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/**
+    ye jo green me nazar aa raha hey isey comment kahtey hen jo code
+    ka part nahi hota just understanding k lye use krtey hen code ki
+
+    ---> navigation_list
+        list-style type none ka matlab k list k saath dots naa show hon
+        padding 0 matlab k navigation list k andar spacing 0 ho jaey
+        margin 0 matlab navigation list k bahir spacing 0 ho jaaey
+        background color dikya
+        display flex matlab k navigation list k andar jitney b tags hen
+        wo apas me JURR jaaen mil jaaen ek line me
+
+        jab display flex se jor letey hen tab unhen center me krney k lye
+        justify content center ki property lagatey hen
+        phir har jurey howey item k darmiyaan kitna gap rakhna he wo pixels
+        me define kartey hen....
+*/
+.navigation_list {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: #f8f9fa;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+/**
+    So navigation list k andar navigation list items hen jesey
+    Home, contact, about, products etc...
+    So navigation list item k andar spacing deney k lye ham ne padding 
+    di he. padding 10px 15px ka matlab ye he top bottom
+    se kitney space ho wo 10px or left right se kitney
+    space ho wo 15px ya iska ulta ho sakta he check kr lena
+    Transition ka matlab ye he jab mouse list item k ooper
+    le kar jaaen to background color change ho or 0.3second
+    time le change honey me........
+*/
+.navigation_list_item {
+    padding: 10px 15px;
+    transition: background-color 0.3s;
+}
+
+/**
+    Navigation list item k andar ancor tag
+    he ham ne direct usko select kya k pahley
+    navigation_list_item me jaao us me ancor tag
+    ko select karo or us text k neechey jo underline
+    show ho rahie usko khatam krney k lye
+    text-decoration:none laga diya
+    phir text ka color change kiya
+    font family change ki
+    font size change kya
+*/
+.navigation_list_item a {
+    text-decoration: none;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/** Hover Effect daaltey hen jab mouse le kar jaaen to isey hover kahtey hen
+    Jesey hi mouse le kar jaaen item par
+    to background color change
+    ho jaaey
+    or phir corners 5px round hojaaen is k lye
+    border-radius 5px laga diya
+*/
+.navigation_list_item:hover {
+    background-color: #e2e6ea;
+    border-radius: 5px;
+}
