@@ -1,240 +1,238 @@
 .welcome_heading {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 60px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 #welcome_heading_home {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 #welcome_heading_product_detail {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 #welcome_heading_about_page {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 #welcome_heading_products_page {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .product_title_text {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 25px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: blue;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 2px;
-    word-spacing: 3px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 25px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: blue;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 3px;
 }
 
 .product_name {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: purple;
-    text-transform: smallcaps;
-    text-decoration: none;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: purple;
+  text-transform: smallcaps;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .product_description {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: black;
-    text-transform: smallcaps;
-    text-decoration: none;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: black;
+  text-transform: smallcaps;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .product_price {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps;
-    color: black;
-    text-transform: smallcaps;
-    text-decoration: none;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  color: black;
+  text-transform: smallcaps;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .product_detail_link {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps;
-    color: red;
-    text-transform: smallcaps;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  color: red;
+  text-transform: smallcaps;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .about_page_description {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 14px;
-    font-weight: bold;
-    font-style: italic;
-    font-variant: small-caps;
-    color: black;
-    text-transform: smallcaps;
-    text-decoration: none;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+  font-style: italic;
+  font-variant: small-caps;
+  color: black;
+  text-transform: smallcaps;
+  text-decoration: none;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 .copyright_text {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    font-style: normal;
-    font-variant: small-caps;
-    color: black;
-    text-transform: smallcaps;
-    text-decoration: underline;
-    letter-spacing: 2px;
-    word-spacing: 2px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: normal;
+  font-variant: small-caps;
+  color: black;
+  text-transform: smallcaps;
+  text-decoration: underline;
+  letter-spacing: 2px;
+  word-spacing: 2px;
 }
 
 #welcome_heading_contact_page {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: green;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: green;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
-
 
 #welcome_heading_register_page {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: brown;
-    text-align: center;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: brown;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
-
 #welcome_heading_login_page {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 40px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: brown;
-    text-align: left;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: brown;
+  text-align: left;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .form_label {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 16px;
-    font-weight: normal;
-    font-style: italic;
-    font-variant: small-caps;
-    color: maroon;
-    text-transform: uppercase;
-    text-decoration: underline;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  font-style: italic;
+  font-variant: small-caps;
+  color: maroon;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 #contact_description {
-    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
-    font-size: 12px;
-    font-weight: normal;
-    font-style: normal;
-    color: blue;
-    letter-spacing: 5px;
-    word-spacing: 10px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 12px;
+  font-weight: normal;
+  font-style: normal;
+  color: blue;
+  letter-spacing: 5px;
+  word-spacing: 10px;
 }
 
 .cart_item {
-    color: blue;
+  color: blue;
 }
 
 .home_page_image {
-    height: 300px;
-    width: 900px;
+  height: 300px;
+  width: 900px;
 }
 
 .product_image {
-    height: 400px;
-    width: 600px;
+  height: 400px;
+  width: 600px;
 }
 
 .web_page_body {
-    /** 
+  /** 
     image repeat ho ri he 
     center me krta hon
     full screen pe image ani chahiye
@@ -242,11 +240,11 @@
     YESS !! background image fix he sirf content move kr raha he
 
     */
-    background: url('../images/ecommerce_image_3.PNG');
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
+  background: url("../images/ecommerce_image_3.PNG");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 /**
@@ -267,13 +265,13 @@
         me define kartey hen....
 */
 .navigation_list {
-    list-style-type: none;
-    padding: 0;
-    margin: 0;
-    background-color: #f8f9fa;
-    display: flex;
-    justify-content: center;
-    gap: 20px;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  background-color: #f8f9fa;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
 /**
@@ -288,8 +286,8 @@
     time le change honey me........
 */
 .navigation_list_item {
-    padding: 10px 15px;
-    transition: background-color 0.3s;
+  padding: 10px 15px;
+  transition: background-color 0.3s;
 }
 
 /**
@@ -304,10 +302,10 @@
     font size change kya
 */
 .navigation_list_item a {
-    text-decoration: none;
-    color: #333;
-    font-family: Arial, sans-serif;
-    font-size: 16px;
+  text-decoration: none;
+  color: #333;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
 }
 
 /** Hover Effect daaltey hen jab mouse le kar jaaen to isey hover kahtey hen
@@ -318,6 +316,16 @@
     border-radius 5px laga diya
 */
 .navigation_list_item:hover {
-    background-color: #e2e6ea;
-    border-radius: 5px;
+  background-color: #e2e6ea;
+  border-radius: 5px;
+}
+
+.flex-row {
+  background-color: white;
+  display: flex;
+  gap: 2px;
+}
+
+.flex-column {
+  width: 25%;
 }
