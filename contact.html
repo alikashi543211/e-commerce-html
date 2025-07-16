@@ -47,22 +47,24 @@
         <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
 
         <!-- Form -->
-        <form action="thank_you.html" method="POST">
-            <label class="form_label">Full Name:</label><br>
-            <input type="text" name="full_name"><br><br>
+        <!-- Form -->
+        <!-- YE HTML ap ne update kr deni he form ki..... phir style krtey hen -->
+        <form action="thank_you.html" method="POST" class="contact_form_wrapper">
+            <label class="contact_form_label">Full Name:</label>
+            <input type="text" name="full_name" class="contact_form_input"><br>
 
-            <label class="form_label">Email Address</label><br>
-            <input type="email" name="email_address"><br><br>
+            <label class="contact_form_label">Email Address</label>
+            <input type="email" name="email_address" class="contact_form_input"><br>
 
-            <label class="form_label">Subject:</label><br>
-            <input type="text" name="subject"><br><br>
+            <label class="contact_form_label">Subject:</label>
+            <input type="text" name="subject" class="contact_form_input"><br>
 
-            <label class="form_label">Message</label><br>
-            <textarea name="message" rows="5" cols="30"></textarea><br><br>
+            <label class="contact_form_label">Message</label>
+            <textarea name="message" rows="5" class="contact_form_textarea"></textarea><br>
 
-            <input type="submit" value="Send Message">
-
+            <input type="submit" value="Send Message" class="contact_form_submit">
         </form>
+
 
         <p id="contact_description">
             You can also reach us at: <Br>

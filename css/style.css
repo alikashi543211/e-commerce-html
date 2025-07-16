@@ -389,3 +389,42 @@
     font-size: 14px;
     color: #777;
 }
+
+.contact_form_wrapper {
+    background-color: #f9f9f9;
+    padding: 20px;
+    width: 400px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Arial, sans-serif;
+    margin-top: 20px;
+}
+
+.contact_form_label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.contact_form_input,
+.contact_form_textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.contact_form_submit {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact_form_submit:hover {
+    background-color: #218838;
+}
