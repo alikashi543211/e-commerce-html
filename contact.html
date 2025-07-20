@@ -43,27 +43,29 @@
     </ul>
 
     <div>
-        <h2 id="welcome_heading_contact_page">Contact Us</h2>
-        <p>If you have any questions or inquiries, feel free to contact us using the form below:</p>
 
         <!-- Form -->
         <!-- Form -->
         <!-- YE HTML ap ne update kr deni he form ki..... phir style krtey hen -->
-        <form action="thank_you.html" method="POST" class="contact_form_wrapper">
-            <label class="contact_form_label">Full Name:</label>
-            <input type="text" name="full_name" class="contact_form_input"><br>
+         <div class="contact_form_box">
+            <form action="thank_you.html" method="POST" class="contact_form_wrapper">
+                <h3 class="contact_form_heading">Contact Us</h3>
+                <label class="contact_form_label">Full Name:</label>
+                <input type="text" name="full_name" class="contact_form_input"><br>
 
-            <label class="contact_form_label">Email Address</label>
-            <input type="email" name="email_address" class="contact_form_input"><br>
+                <label class="contact_form_label">Email Address</label>
+                <input type="email" name="email_address" class="contact_form_input"><br>
 
-            <label class="contact_form_label">Subject:</label>
-            <input type="text" name="subject" class="contact_form_input"><br>
+                <label class="contact_form_label">Subject:</label>
+                <input type="text" name="subject" class="contact_form_input"><br>
 
-            <label class="contact_form_label">Message</label>
-            <textarea name="message" rows="5" class="contact_form_textarea"></textarea><br>
+                <label class="contact_form_label">Message</label>
+                <textarea name="message" rows="5" class="contact_form_textarea"></textarea><br>
 
-            <input type="submit" value="Send Message" class="contact_form_submit">
-        </form>
+                <input type="submit" value="Send Message" class="contact_form_submit">
+            </form>
+         </div>
+        
 
 
         <p id="contact_description">
@@ -73,6 +75,29 @@
         </p>
 
     </div>
+
+    <footer>
+        <div class="footer">
+            <div class="footer-logo">
+                E-Commerce
+            </div>
+
+            <!-- links -->
+            <ul class="footer-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+            </ul>
+
+            <!-- Copyright -->
+            <div class="footer-copy">
+                &copy; 2025 E-Commerce. All rights reserved.
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
